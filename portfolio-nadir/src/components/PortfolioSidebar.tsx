@@ -47,6 +47,9 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar"
 
+import { ThemeToggle } from "@/components/theme-toggle"
+import { usePathname } from "next/navigation"
+
 const data = {
   user: {
     name: "Nadir Oubah",
@@ -57,30 +60,26 @@ const data = {
   navMain: [
     {
       title: "Accueil",
-      url: "#",
+      url: "/",
       icon: Home,
       isActive: true,
     },
     {
       title: "À propos",
-      url: "#about",
+      url: "/about",
       icon: User,
     },
     {
       title: "Projets",
-      url: "#projects",
+      url: "/projects",
       icon: Code,
     },
     {
       title: "Expérience",
-      url: "#experience",
+      url: "/experience",
       icon: Briefcase,
     },
-    {
-      title: "CV",
-      url: "#resume",
-      icon: FileText,
-    },
+    
   ],
   socialLinks: [
     {
@@ -101,6 +100,7 @@ interface PortfolioSidebarProps {
 }
 
 export default function PortfolioSidebar({ children }: PortfolioSidebarProps) {
+  const pathname = usePathname()
   return (
     <SidebarProvider>
       <Sidebar>
@@ -108,7 +108,7 @@ export default function PortfolioSidebar({ children }: PortfolioSidebarProps) {
           <SidebarMenu>
             <SidebarMenuItem>
               <SidebarMenuButton size="lg" asChild>
-                <a href="#">
+                <a href="/">
                   <Avatar className="h-10 w-10">
                     <AvatarImage src={data.user.avatar} alt={data.user.name} />
                     <AvatarFallback>NO</AvatarFallback>
@@ -125,9 +125,14 @@ export default function PortfolioSidebar({ children }: PortfolioSidebarProps) {
         <SidebarContent>
           <SidebarGroup>
             <SidebarMenu>
+              <ThemeToggle />
               {data.navMain.map((item) => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton asChild tooltip={item.title} isActive={item.isActive}>
+                  <SidebarMenuButton 
+                    asChild 
+                    tooltip={item.title} 
+                    isActive={pathname === item.url}
+                  >
                     <a href={item.url}>
                       <item.icon />
                       <span>{item.title}</span>
