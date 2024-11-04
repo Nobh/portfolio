@@ -3,7 +3,6 @@
 import {
   Briefcase,
   Code,
-  FileText,
   Github,
   Home,
   Linkedin,
@@ -19,10 +18,8 @@ import {
 import {
   Breadcrumb,
   BreadcrumbItem,
-  BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-  BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import {
   DropdownMenu,
@@ -49,6 +46,7 @@ import {
 
 import { ThemeToggle } from "@/components/theme-toggle"
 import { usePathname } from "next/navigation"
+import Link from "next/link"
 
 const data = {
   user: {
@@ -79,7 +77,6 @@ const data = {
       url: "/experience",
       icon: Briefcase,
     },
-    
   ],
   socialLinks: [
     {
@@ -108,7 +105,7 @@ export default function PortfolioSidebar({ children }: PortfolioSidebarProps) {
           <SidebarMenu>
             <SidebarMenuItem>
               <SidebarMenuButton size="lg" asChild>
-                <a href="/">
+                <Link href="/">
                   <Avatar className="h-10 w-10">
                     <AvatarImage src={data.user.avatar} alt={data.user.name} />
                     <AvatarFallback>NO</AvatarFallback>
@@ -117,7 +114,7 @@ export default function PortfolioSidebar({ children }: PortfolioSidebarProps) {
                     <span className="truncate font-semibold">{data.user.name}</span>
                     <span className="truncate text-xs">{data.user.title}</span>
                   </div>
-                </a>
+                </Link>
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>
@@ -133,10 +130,10 @@ export default function PortfolioSidebar({ children }: PortfolioSidebarProps) {
                     tooltip={item.title} 
                     isActive={pathname === item.url}
                   >
-                    <a href={item.url}>
+                    <Link href={item.url}>
                       <item.icon />
                       <span>{item.title}</span>
-                    </a>
+                    </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
@@ -149,10 +146,10 @@ export default function PortfolioSidebar({ children }: PortfolioSidebarProps) {
               {data.socialLinks.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild size="sm">
-                    <a href={item.url} target="_blank" rel="noopener noreferrer">
+                    <Link href={item.url} target="_blank" rel="noopener noreferrer">
                       <item.icon />
                       <span>{item.title}</span>
-                    </a>
+                    </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}

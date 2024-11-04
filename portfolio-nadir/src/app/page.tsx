@@ -10,8 +10,8 @@ const experiences = [
   {
     title: "CEO",
     company: "Ngency Paris",
-    period: "Fév 2024 - Aujourd'hui",
-    description: "Direction d'une équipe dédiée aux solutions digitales, développement web sur-mesure et stratégie de marque. Développement de projets web avec WordPress, NextJS et autres frameworks modernes."
+    period: "Fév 2024 - Aujourd&apos;hui",
+    description: "Direction d&apos;une équipe dédiée aux solutions digitales, développement web sur-mesure et stratégie de marque. Développement de projets web avec WordPress, NextJS et autres frameworks modernes."
   },
   {
     title: "Technical Project Manager",
@@ -37,7 +37,7 @@ export default function Home() {
             Développeur Web Full Stack 🚀
           </h2>
           <p className="text-lg text-muted-foreground">
-            En tant que Développeur Full Stack et Responsable de Projets IT, je m'épanouis en créant des expériences digitales impactantes. Je combine une expertise technique en développement front-end et back-end avec une approche créative de la résolution de problèmes. Que ce soit pour optimiser les interactions utilisateur ou gérer des projets IT complexes, je me concentre sur la livraison de solutions efficaces et innovantes qui font une réelle différence.
+            En tant que Développeur Full Stack et Responsable de Projets IT, je m&apos;épanouis en créant des expériences digitales impactantes. Je combine une expertise technique en développement front-end et back-end avec une approche créative de la résolution de problèmes. Que ce soit pour optimiser les interactions utilisateur ou gérer des projets IT complexes, je me concentre sur la livraison de solutions efficaces et innovantes qui font une réelle différence.
           </p>
           <div className="flex gap-4">
             <Button asChild>

@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight, Mail } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
 import { Skills } from "@/components/Skills"
 
 export default function About() {
@@ -12,7 +11,7 @@ export default function About() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Parcours professionnel 💼</h2>
         <p className="text-lg text-muted-foreground">
-          Avec 4 années d'expérience dans le développement web, j'ai évolué d'un poste de Développeur Full Stack à Chef de Projet Digital Technique. Cette progression m'a permis d'acquérir une vision globale des projets digitaux, de la conception à la livraison.
+          Avec 4 années d&apos;expérience dans le développement web, j&apos;ai évolué d&apos;un poste de Développeur Full Stack à Chef de Projet Digital Technique. Cette progression m&apos;a permis d&apos;acquérir une vision globale des projets digitaux, de la conception à la livraison.
         </p>
       </section>
 
@@ -23,7 +22,7 @@ export default function About() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Approche professionnelle</h2>
         <p className="text-lg text-muted-foreground">
-          Je combine expertise technique et vision stratégique pour livrer des solutions digitales innovantes. Ma double compétence en développement et en gestion de projet me permet d'apporter une valeur ajoutée unique aux projets que je dirige.
+          Je combine expertise technique et vision stratégique pour livrer des solutions digitales innovantes. Ma double compétence en développement et en gestion de projet me permet d&apos;apporter une valeur ajoutée unique aux projets que je dirige.
         </p>
       </section>
 
