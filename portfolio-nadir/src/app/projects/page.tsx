@@ -63,10 +63,11 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="min-h-screen bg-muted">
+      <div className="container mx-auto px-4 py-12">
       <div className="space-y-8">
         <div>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Mes Projets</h1>
+          <h1 className="text-4xl font-bold text-primary/80">Mes Projets</h1>
           <p className="text-xl text-muted-foreground mt-4">
             Voici quelques-unes de mes réalisations où j&#39;ai transformé du code en solutions fonctionnelles.
           </p>
@@ -101,12 +102,13 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className="mt-4 inline-block hover:opacity-80"
                 >
-                  <Badge className="bg-accent text-accent-foreground hover:bg-accent/80">Voir le projet</Badge>
+                  <Badge className="bg-secondary text-secondary-foreground hover:bg-accent hover:text-accent-foreground">Voir le projet</Badge>
                 </a>
               </CardContent>
             </Card>
           ))}
         </div>
+      </div>
       </div>
     </div>
   )

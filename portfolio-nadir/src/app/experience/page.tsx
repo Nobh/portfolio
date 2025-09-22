@@ -63,8 +63,9 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Expériences professionnelles</h1>
+    <div className="min-h-screen bg-muted">
+      <div className="container mx-auto px-4 py-12">
+      <h1 className="text-4xl font-bold mb-6 text-primary/80">Expériences professionnelles</h1>
       <div className="grid gap-4">
         {experiences.map((experience, index) => (
           <Card key={index}>
@@ -89,6 +90,7 @@ export default function Experience() {
             </CardContent>
           </Card>
         ))}
+      </div>
       </div>
     </div>
   )
