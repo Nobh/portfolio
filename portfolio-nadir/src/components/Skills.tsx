@@ -28,7 +28,7 @@ export function Skills() {
   return (
     <div className="space-y-8">
       <div className="space-y-2">
-        <h2 className="text-2xl font-bold">Compétences</h2>
+        <h2 className="text-2xl font-bold text-primary">Compétences</h2>
         <p className="text-muted-foreground">
           Une vue d&#39;ensemble de mes compétences techniques et managériales
         </p>
@@ -37,7 +37,7 @@ export function Skills() {
         {skills.map((category) => (
           <Card key={category.category}>
             <CardHeader>
-              <h3 className="font-semibold">{category.category}</h3>
+              <h3 className="font-semibold text-secondary">{category.category}</h3>
               <p className="text-sm text-muted-foreground">{category.description}</p>
             </CardHeader>
             <CardContent>

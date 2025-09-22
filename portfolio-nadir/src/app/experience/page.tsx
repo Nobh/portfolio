@@ -64,14 +64,14 @@ const experiences = [
 export default function Experience() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-6">Expériences professionnelles</h1>
+      <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Expériences professionnelles</h1>
       <div className="grid gap-4">
         {experiences.map((experience, index) => (
           <Card key={index}>
             <CardHeader>
               <div className="flex justify-between items-start">
                 <div>
-                  <h4 className="font-semibold">{experience.title}</h4>
+                  <h4 className="font-semibold text-primary">{experience.title}</h4>
                   <p className="text-sm text-muted-foreground">{experience.company}</p>
                 </div>
                 <span className="text-sm text-muted-foreground">{experience.period}</span>

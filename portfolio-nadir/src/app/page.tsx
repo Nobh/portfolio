@@ -32,8 +32,8 @@ export default function Home() {
     <div className="container mx-auto px-4 py-12">
       <div className="flex flex-col md:flex-row gap-8 items-center">
         <div className="flex-1 md:w-7/10 space-y-4">
-          <h1 className="text-5xl font-bold">Nadir Oubah</h1>
-          <h2 className="text-2xl text-muted-foreground">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Nadir Oubah</h1>
+          <h2 className="text-2xl text-primary font-semibold">
             Software Engineer 🚀
           </h2>
           <p className="text-lg text-muted-foreground">
@@ -46,7 +46,7 @@ export default function Home() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button variant="outline" asChild>
+            <Button variant="secondary" asChild>
               <Link href="/about">En savoir plus</Link>
             </Button>
           </div>
@@ -64,7 +64,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-4 mt-8">
-        <h2 className="text-2xl font-bold">Technologies principales</h2>
+        <h2 className="text-2xl font-bold text-primary">Technologies principales</h2>
         <div className="flex flex-wrap gap-2">
           {["TypeScript", "React", "Next.js", "Angular", "Node.js", "PostgreSQL", "Docker", "Kubernetes", "Java"].map((tech) => (
             <Badge key={tech} variant="secondary">{tech}</Badge>
@@ -77,14 +77,14 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-4 mt-8">
-        <h2 className="text-2xl font-bold">Expériences récentes</h2>
+        <h2 className="text-2xl font-bold text-primary">Expériences récentes</h2>
         <div className="grid gap-4">
           {experiences.map((experience, index) => (
             <Card key={index}>
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold">{experience.title}</h3>
+                    <h3 className="font-semibold text-secondary">{experience.title}</h3>
                     <p className="text-sm text-muted-foreground">{experience.company}</p>
                   </div>
                   <span className="text-sm text-muted-foreground">{experience.period}</span>
