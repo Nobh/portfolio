@@ -4,6 +4,27 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card"
 
 const projects = [
   {
+    title: "DailyBlogPost",
+    description: "SaaS d'automatisation de blogs SEO. Conçu et développé un SaaS multi-tenant pour automatiser la création et la publication d'articles SEO.",
+    image: "/dailyblogpost.png",
+    url: "https://dailyblogpost.app",
+    technologies: ["Next.js", "TypeScript", "NeonDB", "n8n", "Tailwind CSS"],
+  },
+  {
+    title: "Service Promocodes",
+    description: "API de gestion et validation de codes promotionnels avec restrictions dynamiques complexes. Système de règles avec opérateurs logiques (@or, @and) et intégration API météo.",
+    image: "/promocode.jpg",
+    url: "#",
+    technologies: ["TypeScript", "Fastify", "Node.js", "API REST", "OpenWeatherMap"],
+  },
+  {
+    title: "FocusLeveling",
+    description: "SaaS de productivité avec gamification. Sessions de focus chronométrées, système de niveaux, leaderboards et récompenses pour améliorer la concentration et la motivation.",
+    image: "/focusleveling.png",
+    url: "https://focusleveling.com",
+    technologies: ["Next.js", "TypeScript", "Drizzle ORM", "NeonDB", "Stripe", "NextAuth"],
+  },
+  {
     title: "Vizzonary",
     description: "E-commerce de vêtements customisés inspirés de la culture Hip-hop des années 80-90 et de la Black Excellence. Une plateforme qui rend hommage à la musique, aux films et à la culture pop à travers des créations uniques.",
     image: "/vizzonary.webp",

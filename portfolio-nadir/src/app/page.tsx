@@ -8,22 +8,22 @@ import { Skills } from "@/components/Skills"
 
 const experiences = [
   {
-    title: "CEO",
-    company: "Ngency Paris",
-    period: "Fév 2024 - Aujourd&apos;hui",
-    description: "Direction d&apos;une équipe dédiée aux solutions digitales, développement web sur-mesure et stratégie de marque. Développement de projets web avec WordPress, NextJS et autres frameworks modernes."
+    title: "Software Engineer",
+    company: "Airbus Defence and Space",
+    period: "Jan 2025 - Aujourd&apos;hui",
+    description: "Développement avec Java et Angular 19, déploiement sur cluster Kubernetes, CI/CD avec Jenkins/GitHub Actions."
   },
   {
-    title: "Technical Project Manager",
+    title: "Fondateur & CEO",
+    company: "Ngency",
+    period: "Fév 2022 - Déc 2024",
+    description: "Direction d&apos;une équipe dédiée aux solutions digitales, développement web sur-mesure avec Next.js et TypeScript."
+  },
+  {
+    title: "Chef de Projet Technique",
     company: "Cofel Industries",
     period: "Jan 2024 - Juin 2024",
-    description: "Gestion technique du développement back-end (Magento 2, WordPress, PHP) et front-end des différents sites du groupe. Gestion des migrations, déploiements et opérations de base de données."
-  },
-  {
-    title: "Développeur Full Stack",
-    company: "Improba / Ateliom",
-    period: "Sep 2022 - Sep 2023",
-    description: "Développement de plugins WordPress et solutions front-end (VueJS, ReactJS). Création de systèmes back-end et API avec PHP (Laravel 5) et NodeJS."
+    description: "Refonte technique orientée UX/SEO, administration PostgreSQL, coordination d&apos;équipes."
   }
 ]
 
@@ -34,10 +34,10 @@ export default function Home() {
         <div className="flex-1 md:w-7/10 space-y-4">
           <h1 className="text-5xl font-bold">Nadir Oubah</h1>
           <h2 className="text-2xl text-muted-foreground">
-            Développeur Web Full Stack 🚀
+            Software Engineer 🚀
           </h2>
           <p className="text-lg text-muted-foreground">
-            En tant que Développeur Full Stack et Responsable de Projets IT, je m&apos;épanouis en créant des expériences digitales impactantes. Je combine une expertise technique en développement front-end et back-end avec une approche créative de la résolution de problèmes. Que ce soit pour optimiser les interactions utilisateur ou gérer des projets IT complexes, je me concentre sur la livraison de solutions efficaces et innovantes qui font une réelle différence.
+            Software Engineer chez Airbus Defence and Space avec une expertise en TypeScript, React/Next.js et architectures cloud. Je me spécialise dans le développement d&apos;applications web robustes, de l&apos;architecture back-end aux interfaces utilisateur modernes. Passionné par la création de solutions techniques innovantes qui résolvent des problèmes complexes.
           </p>
           <div className="flex gap-4">
             <Button asChild>
@@ -66,7 +66,7 @@ export default function Home() {
       <div className="flex flex-col gap-4 mt-8">
         <h2 className="text-2xl font-bold">Technologies principales</h2>
         <div className="flex flex-wrap gap-2">
-          {["WordPress", "React", "Next.js", "PHP", "Node.js", "PostgreSQL", "MySQL", "HTML/CSS", "JavaScript"].map((tech) => (
+          {["TypeScript", "React", "Next.js", "Angular", "Node.js", "PostgreSQL", "Docker", "Kubernetes", "Java"].map((tech) => (
             <Badge key={tech} variant="secondary">{tech}</Badge>
           ))}
         </div>

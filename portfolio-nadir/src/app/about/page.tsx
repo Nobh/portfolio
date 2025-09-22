@@ -10,8 +10,11 @@ export default function About() {
       
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Parcours professionnel 💼</h2>
+        <p className="text-lg text-muted-foreground mb-4">
+          Software Engineer avec plus de 4 années d&apos;expérience dans le développement d&apos;applications web. J&apos;ai évolué d&apos;un poste de Développeur Full Stack à Software Engineer chez Airbus Defence and Space, en passant par des rôles de Fondateur/CEO et Chef de Projet Technique.
+        </p>
         <p className="text-lg text-muted-foreground">
-          Avec 4 années d&apos;expérience dans le développement web, j&apos;ai évolué d&apos;un poste de Développeur Full Stack à Chef de Projet Digital Technique. Cette progression m&apos;a permis d&apos;acquérir une vision globale des projets digitaux, de la conception à la livraison.
+          Cette progression m&apos;a permis d&apos;acquérir une vision globale des projets digitaux, de la conception technique à la livraison, avec une expertise particulière en TypeScript, React/Next.js et architectures cloud.
         </p>
       </section>
 

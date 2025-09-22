@@ -5,22 +5,22 @@ const skills = [
   {
     category: "Développement Front-end 🌐",
     description: "Création d&apos;interfaces utilisateur modernes et réactives",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js", "HTML/CSS", "JavaScript"],
+    skills: ["TypeScript", "React", "Next.js", "Angular", "Vue.js", "Tailwind CSS", "HTML/CSS", "JavaScript"],
   },
   {
     category: "Développement Back-end ⚙️",
     description: "Architecture et développement de solutions serveur robustes",
-    skills: ["PHP", "Laravel", "Node.js", "API REST", "WordPress", "Express.js"],
+    skills: ["Node.js", "Express/Fastify", "API REST", "GraphQL", "PHP", "Java", "Python"],
   },
   {
     category: "Base de données & DevOps 🗄️",
     description: "Gestion de données et déploiement d&apos;applications",
-    skills: ["PostgreSQL", "MySQL", "MongoDB", "Docker", "Git", "CI/CD"],
+    skills: ["PostgreSQL", "Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Jenkins", "MongoDB", "MySQL"],
   },
   {
-    category: "Gestion de Projet 📊",
-    description: "Leadership technique et méthodologies agiles",
-    skills: ["Agile", "Scrum", "Gestion d&apos;équipe", "Planning", "Documentation", "Communication"],
+    category: "Outils & Technologies 🛠️",
+    description: "Écosystème de développement et automatisation",
+    skills: ["Git", "Supabase", "NeonDB", "n8n", "Make", "Notion", "Figma", "WordPress"],
   },
 ]
 
