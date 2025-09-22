@@ -68,7 +68,7 @@ export default function Projects() {
         <div>
           <h1 className="text-4xl font-bold">Mes Projets</h1>
           <p className="text-xl text-muted-foreground mt-4">
-            Voici quelques-unes de mes réalisations où j'ai transformé du code en solutions fonctionnelles.
+            Voici quelques-unes de mes réalisations où j&#39;ai transformé du code en solutions fonctionnelles.
           </p>
         </div>
 

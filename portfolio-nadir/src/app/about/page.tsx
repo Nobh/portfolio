@@ -11,10 +11,10 @@ export default function About() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Parcours professionnel 💼</h2>
         <p className="text-lg text-muted-foreground mb-4">
-          Software Engineer avec plus de 4 années d'expérience dans le développement d'applications web. J'ai évolué d'un poste de Développeur Full Stack à Software Engineer chez Airbus Defence and Space, en passant par des rôles de Fondateur/CEO et Chef de Projet Technique.
+          Software Engineer avec plus de 4 années d&#39;expérience dans le développement d&#39;applications web. J&#39;ai évolué d&#39;un poste de Développeur Full Stack à Software Engineer chez Airbus Defence and Space, en passant par des rôles de Fondateur/CEO et Chef de Projet Technique.
         </p>
         <p className="text-lg text-muted-foreground">
-          Cette progression m'a permis d'acquérir une vision globale des projets digitaux, de la conception technique à la livraison, avec une expertise particulière en TypeScript, React/Next.js et architectures cloud.
+          Cette progression m&#39;a permis d&#39;acquérir une vision globale des projets digitaux, de la conception technique à la livraison, avec une expertise particulière en TypeScript, React/Next.js et architectures cloud.
         </p>
       </section>
 
@@ -25,7 +25,7 @@ export default function About() {
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Approche professionnelle</h2>
         <p className="text-lg text-muted-foreground">
-          Je combine expertise technique et vision stratégique pour livrer des solutions digitales innovantes. Ma double compétence en développement et en gestion de projet me permet d'apporter une valeur ajoutée unique aux projets que je dirige.
+          Je combine expertise technique et vision stratégique pour livrer des solutions digitales innovantes. Ma double compétence en développement et en gestion de projet me permet d&#39;apporter une valeur ajoutée unique aux projets que je dirige.
         </p>
       </section>
 

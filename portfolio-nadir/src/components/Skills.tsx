@@ -30,7 +30,7 @@ export function Skills() {
       <div className="space-y-2">
         <h2 className="text-2xl font-bold">Compétences</h2>
         <p className="text-muted-foreground">
-          Une vue d'ensemble de mes compétences techniques et managériales
+          Une vue d&#39;ensemble de mes compétences techniques et managériales
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

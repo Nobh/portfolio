@@ -37,7 +37,7 @@ export default function Home() {
             Software Engineer 🚀
           </h2>
           <p className="text-lg text-muted-foreground">
-            Software Engineer chez Airbus Defence and Space avec une expertise en TypeScript, React/Next.js et architectures cloud. Je me spécialise dans le développement d'applications web robustes, de l'architecture back-end aux interfaces utilisateur modernes. Passionné par la création de solutions techniques innovantes qui résolvent des problèmes complexes.
+            Software Engineer chez Airbus Defence and Space avec une expertise en TypeScript, React/Next.js et architectures cloud. Je me spécialise dans le développement d&#39;applications web robustes, de l&#39;architecture back-end aux interfaces utilisateur modernes. Passionné par la création de solutions techniques innovantes qui résolvent des problèmes complexes.
           </p>
           <div className="flex gap-4">
             <Button asChild>
