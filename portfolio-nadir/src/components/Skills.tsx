@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card"
 const skills = [
   {
     category: "Développement Front-end 🌐",
-    description: "Création d&apos;interfaces utilisateur modernes et réactives",
+    description: "Création d'interfaces utilisateur modernes et réactives",
     skills: ["TypeScript", "React", "Next.js", "Angular", "Vue.js", "Tailwind CSS", "HTML/CSS", "JavaScript"],
   },
   {
@@ -14,7 +14,7 @@ const skills = [
   },
   {
     category: "Base de données & DevOps 🗄️",
-    description: "Gestion de données et déploiement d&apos;applications",
+    description: "Gestion de données et déploiement d'applications",
     skills: ["PostgreSQL", "Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Jenkins", "MongoDB", "MySQL"],
   },
   {
@@ -30,7 +30,7 @@ export function Skills() {
       <div className="space-y-2">
         <h2 className="text-2xl font-bold">Compétences</h2>
         <p className="text-muted-foreground">
-          Une vue d&apos;ensemble de mes compétences techniques et managériales
+          Une vue d'ensemble de mes compétences techniques et managériales
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

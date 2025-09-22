@@ -10,20 +10,20 @@ const experiences = [
   {
     title: "Software Engineer",
     company: "Airbus Defence and Space",
-    period: "Jan 2025 - Aujourd&apos;hui",
+    period: "Jan 2025 - Aujourd'hui",
     description: "Développement avec Java et Angular 19, déploiement sur cluster Kubernetes, CI/CD avec Jenkins/GitHub Actions."
   },
   {
     title: "Fondateur & CEO",
     company: "Ngency",
     period: "Fév 2022 - Déc 2024",
-    description: "Direction d&apos;une équipe dédiée aux solutions digitales, développement web sur-mesure avec Next.js et TypeScript."
+    description: "Direction d'une équipe dédiée aux solutions digitales, développement web sur-mesure avec Next.js et TypeScript."
   },
   {
     title: "Chef de Projet Technique",
     company: "Cofel Industries",
     period: "Jan 2024 - Juin 2024",
-    description: "Refonte technique orientée UX/SEO, administration PostgreSQL, coordination d&apos;équipes."
+    description: "Refonte technique orientée UX/SEO, administration PostgreSQL, coordination d'équipes."
   }
 ]
 
@@ -37,7 +37,7 @@ export default function Home() {
             Software Engineer 🚀
           </h2>
           <p className="text-lg text-muted-foreground">
-            Software Engineer chez Airbus Defence and Space avec une expertise en TypeScript, React/Next.js et architectures cloud. Je me spécialise dans le développement d&apos;applications web robustes, de l&apos;architecture back-end aux interfaces utilisateur modernes. Passionné par la création de solutions techniques innovantes qui résolvent des problèmes complexes.
+            Software Engineer chez Airbus Defence and Space avec une expertise en TypeScript, React/Next.js et architectures cloud. Je me spécialise dans le développement d'applications web robustes, de l'architecture back-end aux interfaces utilisateur modernes. Passionné par la création de solutions techniques innovantes qui résolvent des problèmes complexes.
           </p>
           <div className="flex gap-4">
             <Button asChild>

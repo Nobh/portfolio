@@ -40,7 +40,7 @@ const projects = [
   },
   {
     title: "Cabinet Cavaillé Avocat",
-    description: "Site professionnel pour un cabinet d&apos;avocat, présentant ses domaines d&apos;expertise et services. Interface élégante et professionnelle avec système de prise de rendez-vous.",
+    description: "Site professionnel pour un cabinet d'avocat, présentant ses domaines d'expertise et services. Interface élégante et professionnelle avec système de prise de rendez-vous.",
     image: "/cavaille.webp",
     url: "https://www.cavaille-avocat.com/",
     technologies: ["WordPress", "PHP", "JavaScript", "CSS", "MySQL"],
@@ -68,7 +68,7 @@ export default function Projects() {
         <div>
           <h1 className="text-4xl font-bold">Mes Projets</h1>
           <p className="text-xl text-muted-foreground mt-4">
-            Voici quelques-unes de mes réalisations où j&apos;ai transformé du code en solutions fonctionnelles.
+            Voici quelques-unes de mes réalisations où j'ai transformé du code en solutions fonctionnelles.
           </p>
         </div>
 
